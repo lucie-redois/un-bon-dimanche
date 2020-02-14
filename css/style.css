@@ -1,0 +1,56 @@
+/*Importing Google Fonts*/
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Roboto&display=swap');
+
+/*Importing all the CSS files*/
+
+@import url('components/container.css');
+@import url('components/avatar.css');
+@import url('components/button.css');
+@import url('components/banner.css');
+@import url('components/card.css');
+
+/*General style rules for fonts and colors*/
+
+body {
+	font-family: 'Helvetica' ;
+	font-size: 15px ;
+	line-height: 1.5 ;
+	color: #7A5C58;
+	margin: 0;
+}
+
+h1, h2 {
+	color: #3F0D12;
+	font-family: 'Merriweather', serif
+}
+
+h1 {
+	font-size: 25px;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+a {
+	text-decoration: none;
+}
+
+@media (max-width: 960px) {
+	.container {
+		width: 700px;
+	}
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+	}
+}

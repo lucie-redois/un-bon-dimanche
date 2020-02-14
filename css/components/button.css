@@ -1,0 +1,12 @@
+.btn-green {
+	background-color: #3F0D12;
+	padding: 15px 20px;
+	color: white;
+	transition: 0.3s ease;
+	border-radius: 4px;
+	font-family: 'Merriweather', serif;
+}
+
+.btn-green:hover {
+	background-color: #2E7731;
+}
